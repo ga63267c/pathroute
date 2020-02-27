@@ -12,11 +12,11 @@ app.get('/', function (req, res) {
 });
 
 app.get('/Curam', function (req, res) {
-    res.send('{ path:Curam, serverName:' os.hostname()';}');
+    res.send('{ path:Curam, serverName:'+os.hostname()+';}');
 });
 
 app.get('/CuramStatic', function (req, res) {
-    res.send('{ path:CuramStatic, serverName:' os.hostname()';}');
+    res.send('{ path:CuramStatic, serverName:'+os.hostname()+';}');
 });
 
 
