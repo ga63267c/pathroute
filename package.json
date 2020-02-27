@@ -4,9 +4,7 @@
   "description": "Node.js sample app for OpenShift 4",
   "main": "server.js",
   "dependencies": {
-    "ejs": "^2.4.1",
     "express": "^4.13.4",
-    "object-assign":"4.1.0"
   },
   "engine": {
     "node": "*",
@@ -17,12 +15,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/sclorg/nodejs-ex.git"
-  },
-  "author": "Steve Speicher <sspeiche@gmail.com>",
-  "license": "CC-BY-1.0",
-  "bugs": {
-    "url": "http://github.com/sclorg/nodejs-ex/issues"
-  },
-  "homepage": "http://github.com/sclorg/nodejs-ex"
+    "url": "http://github.com/ga63267c/pathroute.git"
+  }
 }
